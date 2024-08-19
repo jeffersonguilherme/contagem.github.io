@@ -8,7 +8,7 @@ const pontosElement = document.querySelector("[data-pontos]");
 
       const funcaoTime = () =>{
       const now2 = new Date();
-      const targetDate2 = new Date('aug 19 2024 10:59:0');
+      const targetDate2 = new Date('aug 19 2024 20:03:0');
       const timeLeft2 = targetDate2 - now2;
       console.log(timeLeft2);
 
