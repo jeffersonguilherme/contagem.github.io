@@ -1,4 +1,4 @@
-
+//contagem gressiva 140 horas de ofertas
 const hoursElement = document.querySelector("[data-hours]");
 const minutesElement = document.querySelector("[data-minutes]");
 const secondsElement = document.querySelector("[data-seconds]");
