@@ -4,7 +4,7 @@ const minutesElement = document.querySelector("[data-minutes]");
 const secondsElement = document.querySelector("[data-seconds]");
 const pontosElement = document.querySelector("[data-pontos]");
 
-    //horario de inicio da contagem
+    //horario de inicio da contage
 
       const funcaoTime = () =>{
       const now2 = new Date();
