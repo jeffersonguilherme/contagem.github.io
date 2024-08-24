@@ -3,6 +3,9 @@ const hoursElement = document.querySelector("[data-hours]");
 const minutesElement = document.querySelector("[data-minutes]");
 const secondsElement = document.querySelector("[data-seconds]");
 const pontosElement = document.querySelector("[data-pontos]");
+const paragrafoElement = document.querySelector("[frase]");
+const cronometroElement = document.querySelector("[relogio]");
+
 
     //horario de inicio da contage
 
@@ -21,7 +24,7 @@ const pontosElement = document.querySelector("[data-pontos]");
           //Data e hora fechamento Caruaru 'aug 25 2024 18:00:0'
           
           const now = new Date();
-          const targetDate = new Date('aug 25 2024 19:20:0');
+          const targetDate = new Date('aug 25 2024 19:03:0');
           const timeLeft = targetDate - now;
         
           const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
@@ -45,6 +48,12 @@ const pontosElement = document.querySelector("[data-pontos]");
               secondsElement.innerHTML = String(seconds).padStart("2", 0);
             
             };
+          }
+
+          if(timeLeft < 0){
+            
+            paragrafoElement.classList.remove("apaga");
+            cronometroElement.classList.add("apaga");
           }
         
           render(daysHoras,minutes, seconds);
