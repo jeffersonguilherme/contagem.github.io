@@ -21,7 +21,7 @@ const pontosElement = document.querySelector("[data-pontos]");
           //Data e hora fechamento Caruaru 'aug 25 2024 18:00:0'
           
           const now = new Date();
-          const targetDate = new Date('aug 25 2024 16:03:0');
+          const targetDate = new Date('aug 25 2024 19:20:0');
           const timeLeft = targetDate - now;
         
           const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
