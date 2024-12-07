@@ -56,7 +56,7 @@ const cronometroElement = document.querySelector("[relogio]");
             cronometroElement.classList.add("apaga");
           }
         
-          render(daysHoras,minutes, seconds);
+          render(days, daysHoras,minutes, seconds);
         };
         
         countdown();
