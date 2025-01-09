@@ -11,7 +11,7 @@ const cronometroElement = document.querySelector("[relogio]");
 
       const funcaoTime = () =>{
       const now2 = new Date();
-      const targetDate2 = new Date('nov 10 2025 17:29:0');
+      const targetDate2 = new Date('jan 10 2025 17:29:0');
       const timeLeft2 = targetDate2 - now2;
       console.log(timeLeft2);
 
