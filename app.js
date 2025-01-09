@@ -24,7 +24,7 @@ const cronometroElement = document.querySelector("[relogio]");
           //Data e hora fechamento Caruaru 'aug 25 2024 18:00:0'
           
           const now = new Date();
-          const targetDate = new Date('nov 28 2025 23:59:0');
+          const targetDate = new Date('jan 9 2024 17:29:0');
           const timeLeft = targetDate - now;
         
           const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
