@@ -11,7 +11,7 @@ const cronometroElement = document.querySelector("[relogio]");
 
       const funcaoTime = () =>{
       const now2 = new Date();
-      const targetDate2 = new Date('nov 29 2024 23:59:0');
+      const targetDate2 = new Date('nov 10 2025 17:29:0');
       const timeLeft2 = targetDate2 - now2;
       console.log(timeLeft2);
 
@@ -24,7 +24,7 @@ const cronometroElement = document.querySelector("[relogio]");
           //Data e hora fechamento Caruaru 'aug 25 2024 18:00:0'
           
           const now = new Date();
-          const targetDate = new Date('jan 9 2024 17:29:0');
+          const targetDate = new Date('jan 10 2025 17:29:0');
           const timeLeft = targetDate - now;
         
           const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
